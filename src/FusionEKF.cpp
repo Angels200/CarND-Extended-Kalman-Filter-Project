@@ -9,7 +9,7 @@ using Eigen::VectorXd;
 using std::vector;
 
 /*
- * Constructor.
+ * Class Constructor.
  */
 FusionEKF::FusionEKF() {
   is_initialized_ = false;
