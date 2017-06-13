@@ -55,8 +55,8 @@ FusionEKF::FusionEKF() {
 
   ekf_.Init(x_, P_, F_, H_laser_, R_laser_, Q_);
 
-  process_noise_ax_ = 3;
-  process_noise_ay_ = 3;
+  process_noise_ax_ = 9;
+  process_noise_ay_ = 9;
 
 }
 
